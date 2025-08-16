@@ -1,6 +1,7 @@
+# Taking Inputs
+
 operator = input("Enter an operator (+, -, *, /): ")
 
-# Taking Inputs
 num1 = float(input("Number 1: "))
 num2 = float(input("Number 2: "))
 
@@ -29,4 +30,4 @@ elif (operator == '*'):
 elif (operator == '/'):
     print(f"Result = {divide(num1,num2)}")
 else:
-    print("You enter an wrong operator.")
+    print("You Choose Wrong operator!!!")
